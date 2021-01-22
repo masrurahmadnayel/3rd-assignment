@@ -2,8 +2,8 @@
 
 // first problem solution code:
 
-function kilometerToMeter(km) {
-    if (km < 0 || km.length >= 0 || km === -0){
+function kilometerToMeter(km) {   
+    if (km < 0 || km.length >= 0 || km === -0){    // this line of code is for handling unexpected values.
         console.log("Error: please enter your value.");
     }
     else {
@@ -38,10 +38,10 @@ function budgetCalculator(clock, mobile, laptop) {
 // third problem solution code:
 
 function hotelCost(rent){
-    if (rent < 0 || rent.length >= 0 || rent === -0){
+    if (rent < 0 || rent.length >= 0 || rent === -0){   //  this line of code is for handling unexpected values
         console.log("Error: Invalid value input again");
     }
-    else if (Number.isInteger(rent) === false){
+    else if (Number.isInteger(rent) === false){     // this line of code for handling decimal value error.
         console.log("Error: day value cannot be decimal, please enter again.")
     }
     else if (rent <= 10){
@@ -65,7 +65,7 @@ function megaFriend(names){
     var bigOne = names[0]
     for (var i = 0; i < names.length; i++){
         var friends = names[i];
-        if (Number.isFinite(friends) === true){
+        if (Number.isFinite(friends) === true){    // this line os code is for unexpected values
             bigOne = "Error: Please enter any valid name.";
         }
         else if (bigOne.length < friends.length){
@@ -74,4 +74,5 @@ function megaFriend(names){
     }
     return bigOne;
 }
+
 
