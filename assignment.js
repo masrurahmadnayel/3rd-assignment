@@ -1,4 +1,4 @@
-// github link: https://github.com/masrurahmadnayel/third-assignment/blob/master/assignment.js
+// github link: https://github.com/masrurahmadnayel/third-assignment
 
 // first problem solution code:
 
